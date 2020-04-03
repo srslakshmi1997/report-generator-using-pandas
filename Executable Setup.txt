@@ -1,0 +1,10 @@
+Steps to genrate .exe file :
+
+Open Command Prompt (set python.exe in your environment variable - path)
+change directory to the Final Code of ReportGenerator -- (cd folderpath)
+in CMD, type -- python setup.py build
+A new folder name build will be created under the folder 'Final Code ReportGenerator'
+Under build->exe.win-amd64-3.7-> .exe file will be generated.
+Copy 'XlsToCsv.vbs' from 'Final Code ReportGenerator' folder to 'exe.win-amd64-3.7' folder.
+Run the reportgenerator.exe 
+
